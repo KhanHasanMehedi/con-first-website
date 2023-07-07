@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*background-color:aqua;*/
+}
+
+.menu-container{
+    background-color: rgb(50, 46, 46);
+    padding: 20px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*.logopic:hover{
+    color:aqua; ata hobena karon ata pic.kono lekha na.
+}*/
+.menus{
+    display: flex;
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.about:hover{
+    color:aqua;
+}
+.logopic{
+    width: 120px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height:100vh ;
+    align-items: center;
+    border: 2px solid gray ;
+    color: white;
+    background-image: url("./images/background.png");
+    /*linear-gradient:(45deg,rgb(52, 38, 38),#3f3b3b);*/
+    background-color: rgb(29, 27, 27);
+}
